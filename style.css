@@ -1,0 +1,270 @@
+body, html {
+    color: white;
+    background-color:black;
+    overflow-x: hidden;
+    margin: 0 20px; 
+}
+
+/*CLASSES, TO BE USED MULTIPLE TIMES*/
+.basicInfo {
+    display:flex;
+}
+
+.informationLayout {
+    display: grid;
+    grid-template-columns: minmax(300px, 35%) minmax(0, 1fr);
+    align-items: start;
+}
+
+.informationColumn {
+    min-width: 0;
+}
+
+.basicInfo p {
+    font-size: 28px;
+    margin-left: 0.5em;
+    margin-top: 0.3em;
+}
+
+.escapeInfo {
+    flex: 0 1 45%;
+    min-width: 0;
+}
+
+.alterationInfo {
+    flex: 0 1 35%;
+    min-width: 0;
+}
+
+.infoBody {
+    display: inline-block;
+    font-size:20px;
+    line-height: 1.5em;
+    margin-left:-3.3em;
+    margin-top:-0.25em;
+}
+
+.profilePhoto {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border: 0.5px solid white;
+}
+
+.profileTop {
+    display: flex;
+    margin-left: 1em;
+    height: 5%;
+    width: 100vw;
+    margin-top:-0.5em;
+}
+
+.profileTop img {
+    width: 75px;
+    height: auto;
+    margin-top: 1.6em;
+    object-fit: contain;
+}
+
+.profileTop p {
+    margin-left: 0.5em;   
+    font-size: 32px;
+    line-height: 1em;
+}
+
+.profileTop a:hover img {
+    animation: rotateonHover ease-in-out 1s infinite;
+    scale: 110%;
+    transition: 0.15s;
+}
+
+.iconAlignment {
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:2.25%;
+}
+
+.selection p{
+    font-size:30px;
+    text-align:center; 
+    margin-bottom: 0.5%;
+}
+
+.selection a {
+    display: inline-flex;
+    width: 18%;
+    margin-left: 1.25%;
+    margin-right: 1.25%;
+}
+
+.selection a img{
+    width:100%;
+    height: auto;
+    transition: 0.2s;
+    border: 0.5px solid white;
+}
+
+.selection a:hover img {
+    animation: rotateonHover ease-in-out 1s infinite;
+    scale: 103%;
+    transition: 0.15s;
+}
+
+.selection {
+    display:flex;
+    width: 90vw;
+    height: auto;
+    align-items: center;
+    flex-direction: column;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.subtitle p{
+    font-size: 18px;
+}
+
+.top {
+    width: 100vw;
+    height: 11vw;
+    min-height: 100px;
+    display:flex;
+    justify-content: center;
+}
+
+.top img {
+    align-self:center;
+    margin-top:2.5em;
+    margin-right:80px;
+    height:100%;
+    min-height:85px;
+}
+
+.center {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.break {
+    width: 100vm;
+    margin-bottom: 1%;
+}
+
+/* IDS, TO BE USED ONCE */
+#research {
+    margin-left:-5em;
+}
+
+#escape {
+    margin-top:1.5em;
+    height: auto;
+    max-height: 50.4vh;
+    width: 105%;
+    overflow-y: auto; 
+    padding-right: 25px;
+}
+
+#escape img {
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+}
+
+#alteration {
+    width: 100%;
+}
+
+#alteration img {
+    width: 50%;
+}
+
+#vertex {
+    width: 140px;
+    margin-top: 0.5em;
+    margin-left: 1em;
+}
+
+#guidelines {
+    margin-top:1.5em;
+    height: auto;
+    max-height: 23.4vh;
+    width: 100%;
+    padding-right: 25px;
+    overflow-y: auto;
+}
+
+#topCompensation {
+    width: 100vw;
+    height: 100px;
+    min-height: 50px;
+}
+
+#topCompensation img {
+    margin-top:1em;
+    height: 100%;
+}
+
+#basicInfoIcon {
+    width: 60px;
+    object-fit: contain;
+    margin-top: -0.2em;
+    margin-left: 1em;
+    align-self:first baseline
+}
+
+#subjectSubtext{
+    font-size: 20px;
+    line-height: 0.5em;
+    white-space: nowrap;
+}
+
+#single a{
+    min-width: 100px;
+    width: 16.8vw;
+    margin-top: 6.5%;
+}
+
+#bottom {
+    margin: 6.5%;
+}
+
+#disclaimer {
+    font-size: 65px;
+    margin-top: 3.5em;
+}
+
+#preface {
+    font-size: 15px;
+    margin-top: -2em;
+    line-height: 16px;
+}
+
+#enter {
+    font-size: 20px;
+}
+
+.color-links a {
+    color:red;
+}
+
+.color-links a:hover {
+    color:red;
+    font-weight: bold;
+}
+
+/* KEYFRAMES */
+@keyframes rotateonHover {
+    0% {
+    transform: rotate(1deg);
+    }
+    50% {
+    transform: rotate(-1deg);
+    }
+    100% {
+    transform: rotate(1deg);
+    }
+}
