@@ -155,6 +155,16 @@ body, html {
 }
 
 /* IDS, TO BE USED ONCE */
+#story {
+    padding-left: 6em;
+    padding-right:10em;
+}
+
+#story2 {
+    padding-left: 6em;
+    padding-right:15em;
+}
+
 #research {
     margin-left:-5em;
 }
