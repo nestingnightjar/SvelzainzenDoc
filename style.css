@@ -173,6 +173,14 @@ body, html {
     padding-right:10em;
 }
 
+#story img {
+    display:flex;
+    float:right;
+    max-width: 300px;
+    height: auto;
+    padding: 1.5em;
+}
+
 #story2 {
     padding-left: 6em;
     padding-right:15em;
