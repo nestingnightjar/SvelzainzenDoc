@@ -132,6 +132,7 @@ body, html {
     flex-direction: column;
     margin-left:auto;
     margin-right:auto;
+    margin-top: -1em;
 }
 
 .subtitle p{
@@ -166,11 +167,68 @@ body, html {
     margin-bottom: 1%;
 }
 
+.readingText {
+    /* text-align: center; */
+    text-indent: 0px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.departmentIcons img{
+    display:flex;
+    float:left;
+    width: 100px;
+    height: 100px;
+    padding-right: 1.5em;
+}
+
+.departmentProfile img{
+    display:flex;
+    float:right;
+    width: 150px;
+    height: 185px;
+    padding-left: 1.5em;
+    padding-bottom:1em;
+}
+
+.seaImage img{
+    display:inline-flex;
+    justify-content: center;
+    width: 600px;
+    height: 300px;
+    padding: 0.5em;
+}
+.visitors {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.visitors img {
+    width: 150px;
+    height: auto;
+}
+
 /* IDS, TO BE USED ONCE */
+#navigation {
+    text-align: center;
+    margin-top: 1.5em;
+}
+
+#heading {
+    font-size: 36px;
+    margin: 0.5em;
+    margin-left: -40px;
+}
+
+#subheading {
+    font-size: 32px;
+    margin: 0.5em;
+    margin-left: -40px; 
+}
+
 #vid {
     display:flex;
     float:right;
-    
 }
 
 #story {
@@ -187,7 +245,8 @@ body, html {
 }
 
 #story2 {
-    padding-left: 6em;
+    /* text-align: center; */
+    padding-left: 15em;
     padding-right:15em;
 }
 
@@ -237,6 +296,7 @@ body, html {
     width: 100vw;
     height: 100px;
     min-height: 50px;
+    margin-top:0.5em;
 }
 
 #topCompensation img {
@@ -283,6 +343,14 @@ body, html {
     font-size: 20px;
 }
 
+.bold {
+    font-weight: bold;
+}
+
+.highlight {
+    background-color:white;
+}
+
 .color-links a {
     color:red;
 }
@@ -290,6 +358,37 @@ body, html {
 .color-links a:hover {
     color:red;
     font-weight: bold;
+}
+
+.color-links-white a {
+    color:white;
+    text-decoration: none;
+}
+
+.color-links-white a:hover {
+    color:white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.colorGreen{
+    color:#92ff71;
+}
+
+.colorBlue{
+    color:#42defa;
+}
+
+.colorYellow{
+    color:#fae542;
+}
+
+.colorOrange{
+    color:#e98521;
+}
+
+.colorRed{
+    color:#e11b13;
 }
 
 /* KEYFRAMES */
