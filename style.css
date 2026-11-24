@@ -43,10 +43,11 @@ body, html {
 
 .infoBody {
     display: inline-block;
-    font-size:20px;
+    font-size:18px;
     line-height: 1.5em;
     margin-left:-3.3em;
     margin-top:-0.25em;
+    color:rgb(235, 235, 235);
 }
 
 .infoBody video {
@@ -136,7 +137,8 @@ body, html {
 }
 
 .subtitle p{
-    font-size: 18px;
+    font-size: 16px;
+    font-style: italic;
 }
 
 .top {
@@ -313,9 +315,11 @@ body, html {
 }
 
 #subjectSubtext{
-    font-size: 20px;
+    font-size: 17px;
     line-height: 0.5em;
     white-space: nowrap;
+    color:rgb(195, 195, 195);
+    font-style: italic;
 }
 
 #single a{
@@ -369,6 +373,10 @@ body, html {
     color:white;
     font-weight: bold;
     font-size: 15px;
+}
+
+.colorGrey{
+    color:rgb(168, 168, 168);
 }
 
 .colorGreen{
